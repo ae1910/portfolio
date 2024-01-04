@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b4e8a16b.css",
-    "main.js": "/portfolio/static/js/main.45fda704.js",
+    "main.css": "/portfolio/static/css/main.c9ad6021.css",
+    "main.js": "/portfolio/static/js/main.75c34814.js",
     "static/media/topnewsMain.mp4": "/portfolio/static/media/topnewsMain.201d07a1051f2f723a10.mp4",
     "static/media/topnewsMobile.mp4": "/portfolio/static/media/topnewsMobile.8a7bed784b7fdb7c4e67.mp4",
     "static/media/niksMain.mp4": "/portfolio/static/media/niksMain.2dee079e04cc3c4e4c97.mp4",
@@ -16,20 +16,21 @@
     "static/media/topnewsMobileShot1.png": "/portfolio/static/media/topnewsMobileShot1.6ce155c202edf4374150.png",
     "static/media/niksShot2.png": "/portfolio/static/media/niksShot2.d673a85ad7cb2a1918a1.png",
     "static/media/Inter.ttf": "/portfolio/static/media/Inter.b4c30855aff392d7e8dc.ttf",
+    "static/media/runningpets.png": "/portfolio/static/media/runningpets.56181124f7e14d77afa2.png",
     "static/media/OhnoBlazeface-72PointItalic.ttf": "/portfolio/static/media/OhnoBlazeface-72PointItalic.cb0acdae786bc8e9fadf.ttf",
-    "static/media/topnewsHero.jpg": "/portfolio/static/media/topnewsHero.2739b131b931e7dac0ea.jpg",
     "static/media/Recoleta-Black.ttf": "/portfolio/static/media/Recoleta-Black.4cddb7fcdf4e1e13f708.ttf",
     "static/media/inflationHero.jpg": "/portfolio/static/media/inflationHero.a677c5e0ae1fa58d93dd.jpg",
+    "static/media/topnewsHero.png": "/portfolio/static/media/topnewsHero.4043592eb2ddf2fec66e.png",
     "static/media/email.png": "/portfolio/static/media/email.51b08bcbb5af7a861c31.png",
     "static/media/github-mark.svg": "/portfolio/static/media/github-mark.5531be85d7a8d6f333e5c7136944a022.svg",
     "static/media/linkedinlogo.svg": "/portfolio/static/media/linkedinlogo.c11a51dc5395675c338ae20f84fcfa75.svg",
     "index.html": "/portfolio/index.html",
     "static/media/new-window.svg": "/portfolio/static/media/new-window.dcdb1b2d58ab41b7474fd618a011a7e8.svg",
-    "main.b4e8a16b.css.map": "/portfolio/static/css/main.b4e8a16b.css.map",
-    "main.45fda704.js.map": "/portfolio/static/js/main.45fda704.js.map"
+    "main.c9ad6021.css.map": "/portfolio/static/css/main.c9ad6021.css.map",
+    "main.75c34814.js.map": "/portfolio/static/js/main.75c34814.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4e8a16b.css",
-    "static/js/main.45fda704.js"
+    "static/css/main.c9ad6021.css",
+    "static/js/main.75c34814.js"
   ]
 }
