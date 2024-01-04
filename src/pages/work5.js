@@ -16,8 +16,7 @@ const Work4 = () => {
           description='A platform where pet lovers can discover images that capture the essence of some of our furry friends. It offer a variety of pet photos to suit every taste and style.'
           show= "true"
           link1="https://ae1910.github.io/pawfully-captured"
-          link2="https://github.com/ae1910/pawfully-captured"
-          video={mainVideo}/>
+          link2="https://github.com/ae1910/pawfully-captured"/>
         <MoreWork 
         link1="/glassify"
         img1="https://www.nonamehiding.com/wp-content/uploads/2022/05/Color.jpg"
