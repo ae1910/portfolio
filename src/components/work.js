@@ -1,17 +1,20 @@
-import githubLogo from "../img/github-mark.svg";
-import newWindowIcon from "../img/new-window.svg";
 import { useState, useEffect } from "react";
-import { gsap, ScrollTrigger } from 'gsap/all';
+import { Link } from "react-router-dom";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import newWindowIcon from "../img/new-window.svg";
+import githubLogo from "../img/github-mark.svg";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Work = (props) => {
+    console.log(props.link2)
     const [isLink, setIsLink] = useState(false);
 
     useEffect(() => {
-        if(props.show == "true") {
+        if(props.link1 !== "") {
             setIsLink(true);
         }
-
-        gsap.registerPlugin(ScrollTrigger);
     
         gsap.to(".article-title.shadow", 2, {
           scrollTrigger: {

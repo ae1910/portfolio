@@ -1,7 +1,7 @@
 import '../css/App.css';
 import mainVideo from "../img/inflationMain.mp4";
 import nikshero from "../img/niksHero.jpg";
-import topnewshero from "../img/topnewsHero.jpg";
+import topnewshero from "../img/topnewsHero.png";
 import inflationhero from "../img/inflationHero.jpg";
 import fullScreen from "../img/InflationWireframe.png";
 import MoreWork from "../components/morework"

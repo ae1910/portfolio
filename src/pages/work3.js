@@ -1,6 +1,6 @@
 import '../css/App.css';
 import nikshero from "../img/niksHero.jpg";
-import topnewshero from "../img/topnewsHero.jpg";
+import topnewshero from "../img/topnewsHero.png";
 import inflationhero from "../img/inflationHero.jpg";
 
 import mainVideo from "../img/glassifyMain.mp4";

@@ -1,10 +1,14 @@
 import '../css/App.css';
-import { gsap, ScrollTrigger } from 'gsap/all';
 import { useEffect } from 'react';
 import Item from "../components/item";
-import topnewshero from "../img/topnewsHero.jpg";
+import topnewshero from "../img/topnewsHero.png";
 import nikshero from "../img/niksHero.jpg";
 import inflationhero from "../img/inflationHero.jpg";
+import petsHero from "../img/runningpets.png";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
   function startLoader() {
@@ -53,7 +57,6 @@ const Home = () => {
         }
     });
 
-    gsap.registerPlugin(ScrollTrigger);
     
     gsap.to(".welcome, .about", 3, {
       scrollTrigger: {
@@ -80,7 +83,7 @@ const Home = () => {
         trigger: ".about",
         start: "top 95%",
         toggleActions: "restart none none none"
-      },}
+      }}
     );
     gsap.to(".shadow", 3, {
       scrollTrigger: {
@@ -89,6 +92,7 @@ const Home = () => {
       y: -75
     });
 }, [])
+
 
   return (
     <div>
@@ -101,11 +105,11 @@ const Home = () => {
         <div className='welcome'>
           <h1>Welcome to my</h1>
           <h1>show & tell</h1>
-          <p className='intro'>Hey hey! My name is Ana Edwards and I am a Web designer and Frontend web developer from New York.</p>
+          <p className='intro'>Hey hey! My name is Ana Edwards and I am a Web Designer, Web Developer and Software Engineer from New York.</p>
         </div>
       </div>
       <div className='about'>
-        <p>Every since I was little, I loved creating. It could of been drawing, crafting, building or sewing, it didn't matter I was eager to do them all. Designing websites and bringing them to life, just adds on to that list. My passion to create is what motivates me.</p>
+        <p>Every since I was little, I loved creating. It could have been drawing, crafting, building or sewing, it didn't matter I was eager to do them all. Designing websites and bringing them to life, just adds on to that list. My passion for creating is what motivates me.</p>
       </div>
       <div className='works-container'>
         <div className='titles-container'>
@@ -119,6 +123,22 @@ const Home = () => {
           </div>
         </div>
         <div className='works-list'>
+          <Item 
+              link="/pet-gallery"
+              title="pawfectly captured"
+              image={petsHero}
+              description='A platform where pet lovers can discover images that capture the essence of some of our furry friends.'
+              show= "true"
+              link1="https://ae1910.github.io/pawfully-captured"
+              link2="https://github.com/ae1910/pawfully-captured"/>
+          <Item 
+            link="/topnews"
+            title="topnews"
+            image={topnewshero}
+            description='A news website for browsing news from various sources built with Javascript and the News API.'
+            show= "true"
+            link1="https://topnews-s6va.onrender.com/"
+            link2="https://github.com/ae1910/topnews"/> 
           <Item 
             link="/inflation"
             title="what is inflation?"
@@ -143,14 +163,6 @@ const Home = () => {
             show= "false"
             link1=""
             link2="https://github.com/ae1910/niks"/>
-          <Item 
-            link="/topnews"
-            title="topnews"
-            image={topnewshero}
-            description='A news website for browsing news from various sources built with Javascript and the News API.'
-            show= "false"
-            link1=""
-            link2="https://github.com/ae1910/topnews"/> 
         </div>
       </div>
     </div>

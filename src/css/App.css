@@ -189,7 +189,7 @@ header {
     position: relative;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 .item-title {
     margin: 10px 0 0;
@@ -203,19 +203,12 @@ header {
     margin: 0 auto;
 }
 #main-container {
-    max-width: 920px;
-    width: 80%;
-    margin: 0 auto;
-}
-.article-container {
-    position: relative;
-    width: 100%;
-    margin-top: calc(100vh + 100px);
-    display: flex;
-    flex-direction: row;
+    padding: 0 2.25em;
 }
 .title-container {
     position: relative;
+    max-width: 920px;
+    margin: 0 auto;
     width: 100%;
 }
 .article-title:first-child, .works-title:first-child {
@@ -231,6 +224,25 @@ header {
     line-height: 1.1;
     margin: 100px auto 24px;
     font-family: 'Ohno Blazeface', serif;
+}
+.reveal {
+    width: 100%;
+    margin: 0 -2.25em;
+    background-color: #fff;
+}
+.reveal img {
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+}
+.article-container {
+    position: relative;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
 }
 .article-main p {
     font-size: 18px;
@@ -257,22 +269,13 @@ a {
     position: relative;
     width: 1em;
     height: auto;
+    object-fit: contain;
     filter: invert(8%) sepia(90%) saturate(7441%) hue-rotate(248deg) brightness(107%) contrast(150%);
 }
 .video {
     padding: 100px 0 0;
 }
 video {
-    width: 100%;
-}
-.reveal {
-    position: absolute;
-    height: 100%;
-    left: 0;
-    width: 100%;
-    background-color: blue;
-}
-.reveal img {
     width: 100%;
 }
 
@@ -333,7 +336,7 @@ video {
     width: 100%;
     background-color: #00f;
 }
-.image img, .reveal img {
+.image img {
     position: absolute;
     top: 0;
     width: 100%;
