@@ -130,7 +130,8 @@ const Home = () => {
               description='A platform where pet lovers can discover images that capture the essence of some of our furry friends.'
               show= "true"
               link1="https://ae1910.github.io/pawfully-captured"
-              link2="https://github.com/ae1910/pawfully-captured"/>
+              link2="https://github.com/ae1910/pawfully-captured"
+              toolkit={['React', 'RESTful API']}/>
           <Item 
             link="/topnews"
             title="topnews"
@@ -138,7 +139,8 @@ const Home = () => {
             description='A news website for browsing news from various sources built with Javascript and the News API.'
             show= "true"
             link1="https://topnews-s6va.onrender.com/"
-            link2="https://github.com/ae1910/topnews"/> 
+            link2="https://github.com/ae1910/topnews"
+            toolkit={['React', 'Node.js', 'Express', 'News API']}/> 
           <Item 
             link="/inflation"
             title="what is inflation?"
@@ -146,7 +148,8 @@ const Home = () => {
             description='A responsive website informing users on what inflation is in a more simple and visual way.'
             show= "true"
             link1="https://ae1910.github.io/inflation/"
-            link2="https://github.com/ae1910/inflation"/>
+            link2="https://github.com/ae1910/inflation"
+            toolkit={['HTML', 'CSS', 'Javascript', 'SVG Animation', 'GSAP']}/>
           <Item 
             link="/glassify"
             title="glassify"
@@ -154,15 +157,17 @@ const Home = () => {
             description='A crowd-sourced website for identifying and exploring vintage and antique glassware.'
             show= "true"
             link1="https://swiss1.hunter.cuny.edu/students/dev4/build"
-            link2="https://github.com/ae1910/topnews"/>
+            link2="https://github.com/ae1910/glassify-glass"
+            toolkit={['React', 'PHP', 'MySQL']}/>
           <Item 
             link="/niks"
             title="niks"
             image={nikshero}
-            description='A group project of an informative site about skincare for people for people that are new and wish to learn more about skincare. Main role was to oversee and work on the front-end of the site, making sure all the pages that were needed, were included, cohesive, and responsive.'
+            description='A group project of an informative site about skincare for people that are new to it and wish to learn more about skincare. My main role was to oversee and work on the front-end of the site, making sure all the pages that were needed, were included, cohesive, and responsive.'
             show= "false"
             link1=""
-            link2="https://github.com/ae1910/niks"/>
+            link2="https://github.com/ae1910/niks"
+            toolkit={['React', 'Node.js', 'Express', 'PostgreSQL']}/>
         </div>
       </div>
     </div>

@@ -28,6 +28,13 @@ const Item = (props) => {
                         <h2 className='item-title'>{props.title}</h2>
                         <p className='item-description'>{props.description}</p>
                     </div>
+                    <div>
+                        <ul className="toolkit">
+                        {props.toolkit?.map((tool, i) =>
+                            <li className="tool" key={i}>{tool}</li>
+                        )}
+                        </ul>
+                    </div>
                     {isLink ?
                     <div className="links">
                         <a className="link" href={props.link1} target="_blank"><img src={newWindowIcon}/> view website</a>
